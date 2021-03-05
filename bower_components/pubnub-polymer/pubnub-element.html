@@ -5,7 +5,7 @@ This element initializes the PubNub client. This element must be created before 
 
 ### Basic Usage:
 
-    <core-pubnub publish_key="demo" subscribe_key="demo"></core-pubnub>
+    <core-pubnub publish_key="pub-c-c7ded99f-3919-4702-b3cc-7cc042f09a3c" subscribe_key="sub-c-8d4415ea-7d64-11eb-9123-deb22d7a9880"></core-pubnub>
 
 @element core-pubnub
 @blurb Element providing encapsulation of the PubNub JS SDK.
@@ -206,7 +206,7 @@ All messages received while subscribed to the channel will be pushed into the me
 
 Place it inside of a `<core-pubnub>` element.
 
-    <core-pubnub publish_key="demo" subscribe_key="demo">
+    <core-pubnub publish_key="pub-c-c7ded99f-3919-4702-b3cc-7cc042f09a3c" subscribe_key="sub-c-8d4415ea-7d64-11eb-9123-deb22d7a9880">
       <core-pubnub-subscribe channel="testChannel" messages="{{messages}}">
       </core-pubnub-subscribe>
     </core-pubnub>
@@ -434,7 +434,7 @@ The message argument can contain any JSON serializable data, including: Objects,
 
 Place it inside of a `<core-pubnub>` element.
 
-    <core-pubnub publish_key="demo" subscribe_key="demo">
+    <core-pubnub publish_key="pub-c-c7ded99f-3919-4702-b3cc-7cc042f09a3c" subscribe_key="sub-c-8d4415ea-7d64-11eb-9123-deb22d7a9880">
       <core-pubnub-publish channel="testChannel" message="Polymer Rules!">
       </core-pubnub-publish>
     </core-pubnub>
@@ -545,7 +545,7 @@ PubNub Storage/Playback Service provides real-time access to an unlimited histor
 
 ### Basic Usage:
 
-    <core-pubnub publish_key="demo" subscribe_key="demo">
+    <core-pubnub publish_key="pub-c-c7ded99f-3919-4702-b3cc-7cc042f09a3c" subscribe_key="sub-c-8d4415ea-7d64-11eb-9123-deb22d7a9880">
       <core-pubnub-history channel="testChannel" history="{{history}}">
       </core-pubnub-history>
     </core-pubnub>
@@ -679,7 +679,7 @@ This element obtains information about the current state of a channel, including
 
 ### Basic Usage:
 
-    <core-pubnub publish_key="demo" subscribe_key="demo">
+    <core-pubnub publish_key="pub-c-c7ded99f-3919-4702-b3cc-7cc042f09a3c" subscribe_key="sub-c-8d4415ea-7d64-11eb-9123-deb22d7a9880">
       <core-pubnub-here-now channel="testChannel" presence="{{presence}}">
       </core-pubnub-history>
     </core-pubnub>
@@ -791,7 +791,7 @@ This element allows you to obtain information about the current list of channels
 
 ### Basic Usage:
 
-    <core-pubnub publish_key="demo" subscribe_key="demo">
+    <core-pubnub publish_key="pub-c-c7ded99f-3919-4702-b3cc-7cc042f09a3c" subscribe_key="sub-c-8d4415ea-7d64-11eb-9123-deb22d7a9880">
       <core-pubnub-where-now uuid="Alice" presence="{{presence}}">
       </core-pubnub-history>
     </core-pubnub>
